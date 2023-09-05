@@ -5,6 +5,7 @@ class Array
             prc.call(self[i])
             i += 1
         end
+        self
     end
 
     def my_select(&prc)
